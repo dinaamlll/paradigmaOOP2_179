@@ -39,6 +39,10 @@ public:
 		sekolah(pSekolah) {
 		cout << "pelajar dibuat\n" << endl;
 	}
-
-
+	~pelajar() {
+		cout << "pelajar dihapus\n" << endl;
+	}
+	string perkenalan() {
+		return "Hallo, nama sayaa" + nama + "dengan jenis kelamin" + jenisKelamin;
+	}
 };
